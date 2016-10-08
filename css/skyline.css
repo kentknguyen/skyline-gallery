@@ -1,0 +1,41 @@
+body { 
+    padding-top: 70px;
+    background: #cccbc6;
+}
+
+.jumbotron {
+    color: #2c3e50;
+    background: #c7d8c6;
+}
+
+.navbar {
+    background: #a9b7c0;
+    color: white;
+}
+
+.navbar .navbar-brand, .navbar a {
+    color:white;
+}
+
+.navbar .navbar-nav>li>a {
+    color: white;
+} 
+
+h1 {  
+    text-align: center;
+}
+
+p {  
+    text-align: center;
+}
+
+.thumbnail img { 
+    min-height:200px; 
+    height:200px; 
+    width: 400px;
+} 
+
+.navbar {
+    border-color: #a9b7c0;
+}
+
