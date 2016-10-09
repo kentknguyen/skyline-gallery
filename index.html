@@ -2,9 +2,23 @@
 <html>
     <head>
         <title>Skyline Gallery</title>
+        <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+        <!-- Bootstrap -->
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        <!-- fancyBox -->
+        <!--<link rel="stylesheet" href="/fancybox/source/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />-->
+        <!--<script type="text/javascript" src="/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>-->
+        <!--<script type="text/javascript">-->
+	       <!-- $(document).ready(function() {-->
+		      <!--  $(".fancybox").fancybox();-->
+	       <!-- });-->
+        <!--</script>-->
         <link rel="stylesheet" type="text/css" href="css/skyline.css">
+        <link rel="stylesheet" type="text/css" href="bootstrap-lightbox/bootstrap-lightbox.css">
+        <script type="text/javascript" src="bootstrap-lightbox/bootstrap-lightbox.js"></script>
     </head>
     
     <body>
@@ -32,14 +46,20 @@
                 <p>A collection of New York City skyline images.</p> 
             </div>
             <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="thumbnail">
-                        <img src="https://static.pexels.com/photos/2324/skyline-buildings-new-york-skyscrapers.jpg">
+                <div id="demoLightbox" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+                    <div class='lightbox-content'>
+                        <img src="https://static.pexels.com/photos/26460/pexels-photo-26460.jpg">
+                            <div class="lightbox-caption"><p>Your caption here</p></div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
                     <div class="thumbnail">
                         <img src="https://static.pexels.com/photos/26460/pexels-photo-26460.jpg">
+                    </div>
+                </div>         
+                <div class="col-lg-3 col-sm-6">
+                    <div class="thumbnail">
+                        <img src="https://static.pexels.com/photos/2324/skyline-buildings-new-york-skyscrapers.jpg">
                     </div>
                 </div>
                 <div class="col-lg-3 col-sm-6">
@@ -114,8 +134,7 @@
                 </div>   
             </div>
         </div>
-<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 </body>
 </html>
 
