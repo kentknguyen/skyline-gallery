@@ -6,3 +6,4 @@ Static site featuring images of the New York City skyline. This simple project d
 
 1. The Web Developer Bootcamp by Colt Steele
 2. www.pexels.com
+3. http://ashleydw.github.io/lightbox
